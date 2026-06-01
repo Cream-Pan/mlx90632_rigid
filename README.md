@@ -142,15 +142,18 @@ git clone https://github.com/Cream-Pan/kicad_my_library.git
 
 登録するライブラリは以下である．
 
+```text
 Footprint Library:
 kicad_my_library/footprints/MyLibrary.pretty
 
 Symbol Library:
 kicad_my_library/symbols/MyLibrary.kicad_sym
+```
 
 KiCad上でのライブラリNicknameは以下に統一する．
-
+```text
 MyLibrary
+```
 
 Nicknameを変更すると，MyLibrary:C0603 のような既存の参照が壊れる可能性がある．
 
